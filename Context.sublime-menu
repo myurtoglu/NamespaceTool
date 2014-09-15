@@ -1,0 +1,5 @@
+[
+    { "caption": "-" },
+    { "command": "namespace_tool", "caption": "Refactor namespace" },
+    { "caption": "-", "id": "end" }
+]

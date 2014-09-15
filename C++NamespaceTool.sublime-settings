@@ -1,0 +1,5 @@
+{
+    "namespaces": ["std"],
+    "filename_extensions": ["cpp", "cc", "cxx", "c++", "hpp", "hxx", "h++",
+                            "inl", "ipp", "cp", "c", "h"]
+}
