@@ -1,4 +1,4 @@
-**C++NamespaceTool** is a simple C++ namespace refactoring package for [Sublime Text 3][sublime].
+**C++NamespaceTool** is a simple C++ namespace refactoring package for [Sublime Text 2 & 3][sublime].
 
 ## Installation ##
 
@@ -38,4 +38,4 @@ Thank you for your interest in this package!
 
 [issues]: https://github.com/myurtoglu/NamespaceTool/issues
 [package_control]: http://wbond.net/sublime_packages/package_control
-[sublime]: http://www.sublimetext.com/3
+[sublime]: http://www.sublimetext.com
