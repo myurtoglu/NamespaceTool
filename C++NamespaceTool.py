@@ -157,6 +157,9 @@ class NamespaceToolCommand(sublime_plugin.TextCommand):
                             refactor_to_using(edit, view, word, namespace)
 
     def is_visible(self):
+        if (not self.view or self.view.is_scratch()
+                or (self.view.file_name() is None)):
+            return False
         fname = self.view.file_name().lower()
         settings = sublime.load_settings('C++NamespaceTool.sublime-settings')
         extensions = settings.get('filename_extensions')
